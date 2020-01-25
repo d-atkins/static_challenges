@@ -1,9 +1,9 @@
 img {
-  width: 240px;
+  width: 100%;
 }
 
 img.big {
-  width: 1000px;
+  width: 100%;
 }
 
 body {
@@ -13,7 +13,6 @@ body {
 header {
   background-color: firebrick;
   padding: 24px;
-
 }
 
 a.login {
@@ -41,9 +40,9 @@ nav span {
   float: right;
 }
 
-article {
+section.main {
   padding: 30px;
-  width: 1000px;
+  width: 70%;
 }
 
 h2 {
@@ -55,4 +54,10 @@ h2 {
 p {
   padding-left: 20px;
   padding-bottom: 10px;
+}
+
+aside {
+  padding-top: 30px;
+  float: right;
+  width: 25%;
 }
